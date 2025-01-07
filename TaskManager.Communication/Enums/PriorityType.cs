@@ -2,7 +2,7 @@
 
 public enum PriorityType
 {
-    High = 0, 
+    Low = 0, 
     Medium = 1,
-    Low = 2
+    High = 2
 }
