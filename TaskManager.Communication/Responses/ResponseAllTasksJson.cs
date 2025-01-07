@@ -2,5 +2,5 @@
 
 public class ResponseAllTasksJson
 {
-    public List<Task> Tasks { get; set; } = [];
+    public List<ResponseShortTaskJson> Tasks { get; set; } = [];
 }

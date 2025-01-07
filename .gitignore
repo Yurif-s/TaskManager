@@ -10,4 +10,6 @@ bld/
 [Bb]in/
 [Oo]bj/
 
-TaskManager.API\app.db
+*.db
+*.db-shm
+*.db-wal
