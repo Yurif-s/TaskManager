@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using TaskManager.Communication.Enums;
 
-namespace TaskManager.API.Entities;
+namespace TaskManager.Application.Entities;
 
 [Table("Tasks")]
 public class TaskItem

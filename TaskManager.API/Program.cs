@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using TaskManager.API.Infrastructure;
+using TaskManager.Application.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen();
 
 // DI
 builder.Services.AddDbContext<AppDbContext>(options => 
-            options.UseSqlite("Data Source=app.db"));
+            options.UseSqlite("Data Source=C:\\Workspace\\TaskManager\\TaskManager.Application\\app.db"));
 
 var app = builder.Build();
 

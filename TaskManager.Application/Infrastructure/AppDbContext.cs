@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TaskManager.API.Entities;
+using TaskManager.Application.Entities;
 
-namespace TaskManager.API.Infrastructure;
+namespace TaskManager.Application.Infrastructure;
 
 public class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-    {}
+    { }
 
     public DbSet<TaskItem> Tasks { get; set; }
 }

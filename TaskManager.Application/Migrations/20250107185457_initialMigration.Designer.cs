@@ -4,15 +4,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using TaskManager.API.Infrastructure;
+using TaskManager.Application.Infrastructure;
 
 #nullable disable
 
-namespace TaskManager.API.Migrations
+namespace TaskManager.Application.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250107164458_initialMigrations")]
-    partial class initialMigrations
+    [Migration("20250107185457_initialMigration")]
+    partial class initialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -20,7 +20,7 @@ namespace TaskManager.API.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.11");
 
-            modelBuilder.Entity("TaskManager.API.Entities.TaskItem", b =>
+            modelBuilder.Entity("TaskManager.Application.Entities.TaskItem", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

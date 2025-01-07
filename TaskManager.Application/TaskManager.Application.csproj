@@ -11,7 +11,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="UseCases\Tasks\" />
+    <Folder Include="UseCases\Tasks\GetAll\" />
+    <Folder Include="UseCases\Tasks\GetById\" />
+    <Folder Include="UseCases\Tasks\Delete\" />
+    <Folder Include="UseCases\Tasks\Update\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.11" />
   </ItemGroup>
 
 </Project>
