@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.API", "TaskManager.API\TaskManager.API.csproj", "{AF8672A3-E81E-45B2-A56E-19BE832CF862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Communication", "TaskManager.Communication\TaskManager.Communication.csproj", "{C186B518-15D0-412A-8A0C-335CAD332CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Application", "TaskManager.Application\TaskManager.Application.csproj", "{2DD97213-EAEA-4C13-B087-633F9CFD4DA0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF8672A3-E81E-45B2-A56E-19BE832CF862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8672A3-E81E-45B2-A56E-19BE832CF862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8672A3-E81E-45B2-A56E-19BE832CF862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8672A3-E81E-45B2-A56E-19BE832CF862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C186B518-15D0-412A-8A0C-335CAD332CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C186B518-15D0-412A-8A0C-335CAD332CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C186B518-15D0-412A-8A0C-335CAD332CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C186B518-15D0-412A-8A0C-335CAD332CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD97213-EAEA-4C13-B087-633F9CFD4DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD97213-EAEA-4C13-B087-633F9CFD4DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD97213-EAEA-4C13-B087-633F9CFD4DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD97213-EAEA-4C13-B087-633F9CFD4DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
